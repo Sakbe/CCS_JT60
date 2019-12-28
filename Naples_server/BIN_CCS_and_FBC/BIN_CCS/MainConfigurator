@@ -1,0 +1,11 @@
+close all
+clear all
+
+%%% CCS - FBC - XCS - CREATE configuratio file
+%%% Select # of control points (19,8 or 6)
+numCtrl=7
+if (numCtrl== 8 ||numCtrl== 6 || numCtrl == 19)
+    JT_60SA_SOF18d66_japs_sensors_isoflux_simulator
+else
+    disp('Not valid number of control points')
+end
